@@ -1,0 +1,20 @@
+{
+    "name": "geeksesi/super-market",
+    "description": "Kata SuperMarket",
+    "authors": [
+        {
+            "name": "Mohammad Javad Ghasemy",
+            "email": "geeksesi@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
